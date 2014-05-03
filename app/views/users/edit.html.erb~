@@ -1,4 +1,0 @@
-<h3><i class="fa fa-user"></i>&nbsp;Edit user</h3>
-<hr/>
-<%= render 'form' %>
-

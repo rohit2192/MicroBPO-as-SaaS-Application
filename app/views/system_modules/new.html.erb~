@@ -1,3 +1,0 @@
-<h3><i class="fa fa-cogs"></i>&nbsp;New system module</h3>
-<hr/>
-<%= render 'form' %>

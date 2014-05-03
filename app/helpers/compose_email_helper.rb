@@ -1,2 +1,0 @@
-module ComposeEmailHelper
-end

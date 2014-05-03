@@ -1,4 +1,0 @@
-<h3><i class="fa fa-user"></i>&nbsp;Edit role</h3>
-<hr/>
-<%= render 'form' %>
-<%#= link_to 'Show', @role %>
