@@ -1,0 +1,712 @@
+Connecting to database specified by database.yml
+Unable to load remider, underlying cause No such file to load -- remider 
+
+ /home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/var/www/micro/test/test_helper.rb:10:in `<class:TestCase>'
+/var/www/micro/test/test_helper.rb:5:in `<top (required)>'
+/var/www/micro/test/unit/company_test.rb:1:in `require'
+/var/www/micro/test/unit/company_test.rb:1:in `<top (required)>'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:10:in `require'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:9:in `each'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:4:in `select'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load remider, underlying cause No such file to load -- remider 
+
+ /home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/var/www/micro/test/test_helper.rb:10:in `<class:TestCase>'
+/var/www/micro/test/test_helper.rb:5:in `<top (required)>'
+/var/www/micro/test/functional/auths_controller_test.rb:1:in `require'
+/var/www/micro/test/functional/auths_controller_test.rb:1:in `<top (required)>'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:10:in `require'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:9:in `each'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:4:in `select'
+/home/karanjekar/.rvm/gems/ruby-1.9.3-p484/gems/rake-10.1.1/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.5ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (39.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (45.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (47.7ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (47.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (47.1ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (42.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (38.0ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (40.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (46.6ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (43.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:10', '2014-04-25 15:35:10', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (39.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (58.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (58.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (52.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (58.0ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (56.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (38.1ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (41.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (37.8ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (39.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (46.0ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (42.8ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (44.9ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (37.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (42.8ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:11', '2014-04-25 15:35:11', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (40.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (39.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (58.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (57.7ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (51.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (58.9ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (62.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (162.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (76.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (39.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:12', '2014-04-25 15:35:12', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (488.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.4ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (65.9ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (47.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.4ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.0ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (46.2ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (38.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (38.9ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (40.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (53.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (52.9ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (48.8ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:13', '2014-04-25 15:35:13', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (49.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (58.7ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (44.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (47.6ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (64.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (47.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (40.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (41.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (39.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (37.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (37.9ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.4ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (43.0ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (55.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.4ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (58.9ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:14', '2014-04-25 15:35:14', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (56.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (49.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (52.8ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (38.4ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.0ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (44.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (40.4ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (38.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (47.8ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `system_modules`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `remiders`
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[36m (38.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `system_modules`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `system_modules` (`system_module_name`, `system_module_description`, `system_module_order`, `is_active`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyText', 1, 0, '2014-04-25 15:35:15', '2014-04-25 15:35:15', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `remiders`[0m
+Mysql2::Error: Table 'micro_test.remiders' doesn't exist: DELETE FROM `remiders`
+  [1m[35m (46.6ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
