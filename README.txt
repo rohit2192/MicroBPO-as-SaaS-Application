@@ -1,2 +1,1 @@
-MICRO-BPO (Business Process Outsourcing) is the “The All-in-one Marketing, Sales & Support Department for Business Owners who Can’t Afford It. MICRO-BPO is a model for managing a company’s interactions with current and future customers. It involves using technology to organize, automate, and synchronize sales, marketing, customer service, and technical support.
-It is the practice of hiring third-party sources to operate certain aspects of a business. 
+![Codeship Status](https://www.codeship.io/projects/415dca90-b9a4-0131-b9cf-423fef3689ea/status)
